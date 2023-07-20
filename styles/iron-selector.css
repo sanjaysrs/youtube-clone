@@ -1,0 +1,38 @@
+.iron-selector {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  position: fixed;
+  top: 55px;
+  left: 72px;
+  z-index: 1;
+  width: 1463px;
+  justify-content: space-around;
+  height: 56px;
+  align-items: center;
+  border: none;
+}
+
+.iron, .selected-iron {
+
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto, Arial;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: Roboto, Arial;
+}
+
+.next-icon {
+  height: 12px;
+}
+
+.selected-iron {
+  color: white;
+  background-color: black;
+}
